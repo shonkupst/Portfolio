@@ -1,0 +1,291 @@
+.fixed-header {
+  position: fixed;                    /* Fix the header to the screen */
+  top: 10px;                         /* Align it to the top of the page */
+  left: 50%;                         /* Center it horizontally */
+  transform: translateX(-50%);      /* Adjust for half of its width */
+  max-width: 600px;                 /* Maximum width */
+  width: 100%;                       /* Allow full width until max */
+  z-index: 1000;                    /* Ensure it stays on top of other elements */
+  background-color: rgba(243, 238, 234, 0.8); /* Slightly transparent background */
+  backdrop-filter: blur(5px);       /* Optional blur effect for better readability */
+  border-radius: 10%;
+}
+
+.background-header{
+  background-color: rgb(200, 190, 175,0.5) !important;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2) !important; /* Optional shadow */ 
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: rgba(34, 8, 8, 0.603) !important; /* White text on hover */
+    text-decoration: none; /* No underline */
+}
+
+.header-text{
+  color: rgba(0, 0, 0, 0.747);
+  font-family: "Red Hat Display", sans-serif !important;
+  font-size:medium;
+  font-weight: 800;
+}
+
+.background-light {
+    background-color: #F3EEEA !important;  /* Soft beige background */
+}
+
+.text-brown{
+    color: #776B5D !important;
+}
+
+.red-hat-display-head{
+    font-family: "Red Hat Display", sans-serif !important;
+    font-optical-sizing: auto ;
+    font-weight: 300 ;
+    font-style: normal !important;
+}
+
+.playfair-display-sc-regular {
+    font-family: "Playfair Display SC", serif !important;
+    font-weight: 400;
+    font-style: normal !important;
+  }
+
+  .background-button{
+    background-color: #B0A695 !important;
+  }
+
+  .button-text-color{
+    color: #F3EEEA;
+  }
+
+  .work-exp{
+    font-family:"Playfair Display SC", serif !important ;
+    text-align: center !important;
+    margin-top: 50px;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #EBE3D5;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .box {
+    color: #776B5D;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  div>div>ul>li>h2{
+    font-family: "Red Hat Display", sans-serif !important;
+    font-size:x-large;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: None;
+    padding-bottom: None;
+    max-width: 600px;
+  }
+
+  div>div>ul>h3{
+    font-family: "Red Hat Display", sans-serif !important;
+    font-size:large;
+    font-weight:500;
+    text-align: start;
+    padding-bottom: none;
+    margin-bottom: 20px;
+  }
+
+  div>div>ul>p{
+    font-family:"Playfair Display SC", serif !important ;
+    text-align: start;
+    max-width: 600px;
+  }
+
+  .text-style-h{
+    font-family: "Red Hat Display", sans-serif !important;
+    font-weight:400;
+    margin-bottom: 15px;
+  }
+
+  .text-style-p{
+    font-family: "Red Hat Display", sans-serif !important;
+    font-size:medium;
+    font-weight:400;
+    text-align: start;
+    padding-bottom: none;
+    margin-bottom: 20px;
+  }
+
+  .flex-container2{
+    background-color: #EBE3D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .grid-container{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 10px;
+    column-gap: 5px;
+    background-color: ECDFCC !important;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 8px;  /* Optional: Slightly round the corners */
+    max-width: 600px;  /* Adjust to your preferred width */
+    max-height: 600px;
+    margin-bottom: 50px;
+    
+  }
+
+  .grid-item{
+    text-align: left;
+    color: #3C3D37;
+  }
+
+  .align-inline {
+    display: flex; /* Makes the item a flex container */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Aligns SVG and text vertically */
+}
+  .align-inline2 {
+    display: flex; /* Makes the item a flex container */
+    flex-direction: row;
+    align-items: center; /* Aligns SVG and text vertically */
+}
+
+  .svg {
+    width: 80px; /* Set width for the SVG */
+    height: 80px; /* Set height for the SVG */
+    margin-right: 0px; /* Adds space between the SVG and the text */
+  }
+
+  .flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+    max-width: 1400px;
+    flex-shrink:1 ;
+  }
+
+  .flex-item2 {
+    padding: 20px; /* Adds padding to grid items */
+}
+ 
+.flex-item2 p{
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif !important;
+  font-size: large;
+  font-weight: 600;
+}
+
+.flex-container4{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.projects{
+  background-color: #F3EEEA !important;  /* Soft beige background */
+}
+
+.project-photo{
+  height: 900px;
+}
+
+.project-h{
+  font-family: "Red Hat Display", sans-serif !important;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3C3D37;
+}
+
+.project-p{
+  font-family: "Playfair Display SC", serif !important;
+  font-size: 1.5rem;
+  font-weight:300;
+  color: #3C3D37;
+}
+
+
+.contact{
+  background-color: #697565;
+  height: 70px;
+  width: 140px;
+  font-size: 1.2rem;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #697565;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  color:#ECDFCC;
+  text-decoration: none; /* Removes the underline */
+  padding: 10px;
+  font-size: 1.1rem;
+  
+}
+
+.copyright{
+  color:#181C14 ;
+  font-size: 1.1rem;
+}
+
+
+@media (max-width: 768px) {
+  .flex-container3 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .grid-item2 {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .flex-item2 {
+  padding: 5px;;
+  }
+
+  .flex-item2 p{
+    font-size: medium;
+  }
+  .flex-container4{
+    flex-direction: column;
+  }
+
+  .project-photo{
+    height: 400px;
+  }
+  .project-h{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .project-p{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+
+
+@media(max-width: 991px){
+
+  .project-photo{
+    height: 600px;
+  }
+}
